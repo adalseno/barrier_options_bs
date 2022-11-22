@@ -107,13 +107,37 @@ p_{di} & = -S_0 N(-x_1)e^{-qT}\\
 
 $$ p_{do} = p-p_{di}$$
 
-### Example results 
+### Example usage 
 
 Case $H\ge K$:
+
+    bs_barrier(120,120,8/12,0.06,0.3,150)
+
+    {'cui': 12.28,
+     'cuo': 1.69,
+     'cdi': 13.97,
+     'cdo': 0,
+     'pui': 0.34,
+     'puo': 8.93,
+     'pdi': 9.27,
+     'pdo': 0}
+
 
 ![barrier_h_more_k](https://user-images.githubusercontent.com/2405291/203375771-e93a08d5-b85b-447b-b3ae-c1d939a7e936.png)
 
 Case $H\le K$:
+
+    bs_barrier(120,120,8/12,0.06,0.3,100)
+
+    {'cui': 13.97,
+     'cuo': 0,
+     'cdi': 0.97,
+     'cdo': 13.0,
+     'pui': 9.27,
+     'puo': 0,
+     'pdi': 8.5,
+     'pdo': 0.77}
+
 
 ![barrier_h_less_k](https://user-images.githubusercontent.com/2405291/203375876-588037a1-8275-4ee8-ba9d-f5695f177354.png)
 
