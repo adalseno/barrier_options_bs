@@ -142,3 +142,5 @@ Case $H\le K$:
 ![barrier_h_less_k](https://user-images.githubusercontent.com/2405291/203375876-588037a1-8275-4ee8-ba9d-f5695f177354.png)
 
 Images from http://www.coggit.com/freetools
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/adalseno/barrier_options_bs/HEAD)
