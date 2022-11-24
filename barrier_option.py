@@ -28,7 +28,7 @@ def bs_option(
     mu = r + 0.5 * np.power(sigma, 2)  # mu
 
     # Compute d1 and d2
-    d1 = np.log(S0 / K) + (mu * T) / sigma_t
+    d1 = (np.log(S0 / K) + mu * T) / sigma_t
     d2 = d1 - sigma_t
 
     # Greeks dict
